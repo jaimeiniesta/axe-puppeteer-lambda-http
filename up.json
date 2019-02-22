@@ -1,0 +1,13 @@
+{
+  "name": "axe-puppeteer-lambda-http",
+  "regions": [
+    "us-west-1"
+  ],
+  "profile": "default",
+  "lambda": {
+    "memory": 2048
+  },
+  "proxy": {
+    "timeout": 25
+  }
+}

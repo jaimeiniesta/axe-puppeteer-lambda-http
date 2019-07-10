@@ -12,3 +12,7 @@ We use [Up](https://up.docs.apex.sh/) for deployment.
 * `up deploy production` will deploy to production.
 * `up url` will show the URL.
 * `up logs -f` to see the live logs.
+
+## Notes on deployment size
+
+Remove the local chrome for mac from node_modules/puppeteer before deploying.

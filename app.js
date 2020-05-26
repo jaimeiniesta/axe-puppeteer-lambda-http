@@ -16,6 +16,7 @@ const analyze = async url => {
 
   try {
     const page = await browser.newPage();
+    await page.setUserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/68.0.3419.0 Safari/537.36 RocketValidator (+https://rocketvalidator.com)");
     await page.setBypassCSP(true);
 
     await page.goto(url);

@@ -1,5 +1,5 @@
 const chromium = require('chrome-aws-lambda');
-const { AxePuppeteer } = require('axe-puppeteer');
+const { AxePuppeteer } = require('@axe-core/puppeteer');
 const puppeteer = require('puppeteer');
 
 const { createServer } = require('http');

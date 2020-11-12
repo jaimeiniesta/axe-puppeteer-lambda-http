@@ -2,7 +2,7 @@
   "dependencies": {
     "@axe-core/puppeteer": "^4.0.0",
     "axe-core": "^4.0.2",
-    "chrome-aws-lambda": "^1.20.4",
-    "puppeteer": "^3.3.0"
+    "chrome-aws-lambda": "^5.3.1",
+    "puppeteer": "^5.4.1"
   }
 }

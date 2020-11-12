@@ -10,8 +10,9 @@ const { PORT = 3000 } = process.env;
 const analyze = async url => {
   const browser = await puppeteer.launch({
     args: chromium.args,
-    headless: chromium.headless,
-    executablePath: await chromium.executablePath
+    headless: true,
+    executablePath: await chromium.executablePath,
+    ignoreHTTPSErrors: true
   });
 
   try {
